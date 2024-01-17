@@ -128,7 +128,7 @@
 
         <v-card-text class="py-2 white--text text-center">
           <h3>
-            © {{ new Date().getFullYear() }} — <strong> FJÄLLRÄVEN hihi</strong>
+            © {{ new Date().getFullYear() }} — <strong> FJÄLLRÄVEN</strong>
           </h3>
         </v-card-text>
       </v-card>
@@ -140,7 +140,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  z-index: 1000; /* Adjust the z-index as needed */
+  z-index: 1000;
 }
 </style>
 <script>
