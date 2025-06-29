@@ -180,7 +180,7 @@
       </div>
     </v-main>
     <!-- ปุ่มย้อนกลับไปด้านบน -->
-    <v-btn
+    <!-- <v-btn
       v-if="page === 'product' && showScrollToTop"
       fab
       color="primary"
@@ -188,7 +188,7 @@
       @click="scrollToTop"
     >
       <v-icon>mdi-chevron-up</v-icon>
-    </v-btn>
+    </v-btn> -->
     <v-footer
       dark
       padless
@@ -290,7 +290,7 @@ strong {
 
 /* ปุ่มย้อนกลับไปด้านบน */
 .scroll-to-top {
-  position: fixed; /* ทำให้ปุ่มอยู่ในตำแหน่งคงที่ */
+  position: fixed; /* ทำให้ปุ่มลอยอยู่ในตำแหน่งคงที่ */
   bottom: 20px; /* ระยะห่างจากด้านล่าง */
   right: 20px; /* ระยะห่างจากด้านขวา */
   z-index: 1000; /* ทำให้ปุ่มอยู่ด้านบนสุด */
