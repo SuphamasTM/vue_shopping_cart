@@ -76,16 +76,6 @@
             </v-col>
           </v-row>
         </v-card>
-        <!-- ปุ่มย้อนกลับไปด้านบน -->
-        <v-btn
-          v-if="showScrollToTop"
-          fab
-          color="primary"
-          class="scroll-to-top"
-          @click="scrollToTop"
-        >
-          <v-icon>mdi-chevron-up</v-icon>
-        </v-btn>
       </div>
       <div v-if="page === 'cart'">
         <v-card>
@@ -189,6 +179,16 @@
         </v-card>
       </div>
     </v-main>
+    <!-- ปุ่มย้อนกลับไปด้านบน -->
+    <v-btn
+      v-if="page === 'product' && showScrollToTop"
+      fab
+      color="primary"
+      class="scroll-to-top"
+      @click="scrollToTop"
+    >
+      <v-icon>mdi-chevron-up</v-icon>
+    </v-btn>
     <v-footer
       dark
       padless
