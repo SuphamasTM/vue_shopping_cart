@@ -290,11 +290,11 @@ strong {
 
 /* ปุ่มย้อนกลับไปด้านบน */
 .scroll-to-top {
-  position: fixed;
-  bottom: 120px; /* เพิ่มระยะห่างจาก footer */
-  right: 20px;
-  z-index: 1000;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  position: fixed; /* ทำให้ปุ่มอยู่ในตำแหน่งคงที่ */
+  bottom: 20px; /* ระยะห่างจากด้านล่าง */
+  right: 20px; /* ระยะห่างจากด้านขวา */
+  z-index: 1000; /* ทำให้ปุ่มอยู่ด้านบนสุด */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* เพิ่มเงา */
 }
 </style>
 <script>
